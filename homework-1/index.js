@@ -190,135 +190,135 @@
 
 // Classwork2
 
-console.log(Boolean(0));
-console.log(typeof 0);
+// console.log(Boolean(0));
+// console.log(typeof 0);
 
-console.log(Boolean(NaN));
-console.log(typeof NaN);
+// console.log(Boolean(NaN));
+// console.log(typeof NaN);
 
-console.log(Boolean(null));
-console.log(typeof null);
+// console.log(Boolean(null));
+// console.log(typeof null);
 
-console.log(Boolean(undefined));
-console.log(typeof undefined);
+// console.log(Boolean(undefined));
+// console.log(typeof undefined);
 
-console.log(Boolean(false));
-console.log(typeof false);
+// console.log(Boolean(false));
+// console.log(typeof false);
 
-console.log(Boolean(""));
-console.log(typeof "");
+// console.log(Boolean(""));
+// console.log(typeof "");
 
-console.log(Boolean(" "));
-console.log(typeof " ");
+// console.log(Boolean(" "));
+// console.log(typeof " ");
 
-console.log(Number(false));
-console.log(Number(true));
+// console.log(Number(false));
+// console.log(Number(true));
 
-console.log(false == undefined)
-console.log(false == null)
-console.log(undefined == null)
-console.log(undefined === null)
+// console.log(false == undefined)
+// console.log(false == null)
+// console.log(undefined == null)
+// console.log(undefined === null)
 
-const KPI = 30
-const fact = KPI > 20 && KPI < 31;
-console.log(fact); // true
+// const KPI = 30
+// const fact = KPI > 20 && KPI < 31;
+// console.log(fact); // true
 
-console.log("cat" && "dog" && "parrot");
+// console.log("cat" && "dog" && "parrot");
 
-const fact2 = KPI > 20 && KPI < 29;
-//    true && false;
+// const fact2 = KPI > 20 && KPI < 29;
+// //    true && false;
 
-console.log(fact2);
-console.log("cat" && false);
+// console.log(fact2);
+// console.log("cat" && false);
 
-const fact1 = KPI > 31 && KPI <32
-//             false && true
-console.log(fact1);
+// const fact1 = KPI > 31 && KPI <32
+// //             false && true
+// console.log(fact1);
 
-const age = 30;
-const trueAge = age < 31 || age > 29
-console.log(trueAge);
+// const age = 30;
+// const trueAge = age < 31 || age > 29
+// console.log(trueAge);
 
-console.log("cat" || "parrot");
-//           true || true
+// console.log("cat" || "parrot");
+// //           true || true
 
-const trueAge1 = age < 31 || age > 32;
-//                   true || false
+// const trueAge1 = age < 31 || age > 32;
+// //                   true || false
 
-console.log(trueAge1); // true
-console.log("cat" || false);
-//           true || false // cat
-const trueAge2 = age < 29 || age > 27;
-//                  false || true // true
+// console.log(trueAge1); // true
+// console.log("cat" || false);
+// //           true || false // cat
+// const trueAge2 = age < 29 || age > 27;
+// //                  false || true // true
 
-console.log(trueAge2);
-console.log(false || "parrot");
+// console.log(trueAge2);
+// console.log(false || "parrot");
 
-const trueAge3 = age < 29 || age > 31;
-//                  false || false
+// const trueAge3 = age < 29 || age > 31;
+// //                  false || false
 
-console.log(trueAge3);
+// console.log(trueAge3);
 
-console.log(!true);
-console.log(!false);
+// console.log(!true);
+// console.log(!false);
 
-console.log(!1);
-console.log(!!1);
+// console.log(!1);
+// console.log(!!1);
 
-console.log(!0);
-console.log(!!0);
+// console.log(!0);
+// console.log(!!0);
 
-console.log(!"cat");
+// console.log(!"cat");
 
-const quantity = 50;
+// const quantity = 50;
 
-console.log((false && true) || true);
-//           (false)        || true
+// console.log((false && true) || true);
+// //           (false)        || true
 
-console.log(false && (true || true))
+// console.log(false && (true || true))
 
-console.log((quantity > 39 && quantity < 49) || quantity > 48)
-// (true && false) || true
+// console.log((quantity > 39 && quantity < 49) || quantity > 48)
+// // (true && false) || true
 
-console.log((true && false) || "parrot");
+// console.log((true && false) || "parrot");
 
-console.log((quantity > 51 && quantity < 53) || quantity > 48);
-//            false && true || true // true
-//                    false || true; // true
+// console.log((quantity > 51 && quantity < 53) || quantity > 48);
+// //            false && true || true // true
+// //                    false || true; // true
 
-console.log((quantity > 51 && quantity < 49) || quantity > 49)
+// console.log((quantity > 51 && quantity < 49) || quantity > 49)
 
-console.log((quantity > 51 && quantity < 51) || quantity > 52);
+// console.log((quantity > 51 && quantity < 51) || quantity > 52);
 
-console.log((quantity > 39 && quantity > 49) || quantity > 51);
+// console.log((quantity > 39 && quantity > 49) || quantity > 51);
 
-console.log((quantity > 51 && quantity < 49) || quantity > 52);
+// console.log((quantity > 51 && quantity < 49) || quantity > 52);
 
-console.log((false && true) || NaN);
+// console.log((false && true) || NaN);
 
-console.log((true && true) || NaN);
+// console.log((true && true) || NaN);
 
-console.log(NaN || (true && true));
+// console.log(NaN || (true && true));
 
 
 
-let cost;
+// let cost;
 
-const subscribtion = "pr";
+// const subscribtion = "pr";
 
-if (subscribtion === "pro") {
-    cost = 100;
-}
+// if (subscribtion === "pro") {
+//     cost = 100;
+// }
 
-if (subscribtion === "pr") {
-    cost = 0;
-}
+// if (subscribtion === "pr") {
+//     cost = 0;
+// }
 
-if (subscribtion === "pr") {
-    cost = 34;
-}
+// if (subscribtion === "pr") {
+//     cost = 34;
+// }
 
-console.log(cost); 
+// console.log(cost); 
 
 
 // let day = prompt("Enter today day please")
@@ -519,11 +519,15 @@ console.log(cost);
 
 
 
-const number = 10;
+// const number = 10;
 
-for (let i = 0; i < number; i += 1) {
-    if (i % 2 === 0) {
-        continue;
-    }
-    console.log("Нечётное i:", i)
-}
+// for (let i = 0; i < number; i += 1) {
+//     if (i % 2 === 0) {
+//         continue;
+//     }
+//     console.log("Нечётное i:", i)
+// }
+
+// Classwork3
+
+
